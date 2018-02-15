@@ -58,7 +58,7 @@ h6 {
 }
 
 a {
-  color: #c39d6d;
+  color: #7a92a9;
   -moz-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
@@ -69,7 +69,7 @@ a {
   outline: 0 !important;
 }
 a:hover, a:active, a:focus {
-  color: #ad8b60;
+  color: #e5d3ce;
   text-decoration: none;
 }
 
@@ -188,7 +188,7 @@ strong {
 }
 
 .text-primary {
-  color: #c39d6d;
+  color: #7a92a9;
 }
 
 .text-success {
@@ -490,7 +490,7 @@ input:focus {
 
 ::selection {
   color: white;
-  background: rgba(195, 157, 109, 0.75);
+  background: #e5d3ce; /*rgba(195, 157, 109, 0.75)*/
 }
 
 /* Buttons */
@@ -604,21 +604,21 @@ a.btn {
 /* / End Default Button */
 /* Primary Button */
 .btn-primary, .btn-primary:active, .btn-primary:focus {
-  color: #c39d6d;
-  border: 2px solid #c39d6d;
+  color: #7a92a9;
+  border: 2px solid #7a92a9;
   background: transparent;
 }
 
 .btn-primary:hover {
   color: white;
-  background: #c39d6d;
-  border: 2px solid #c39d6d;
+  background: #7a92a9;
+  border: 2px solid #7a92a9;
 }
 
 .btn-primary-filled, .btn-primary-filled:active, .btn-primary-filled:focus {
   color: white;
-  background: #c39d6d;
-  border: 2px solid #c39d6d;
+  background: #7a92a9;
+  border: 2px solid #7a92a9;
 }
 
 .btn-primary-filled:hover {
@@ -1786,6 +1786,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 /* Banners */
 #header-banner {
   background-color: #e5d3ce;
+  background-image: url("https://lh3.googleusercontent.com/mlVrfhofyz_4SGvaXi1FNk_dzqCC7xm79t3QonF0bd7Vzk4wepZ3j1qkAxpzs3-0qakKkoPdTMpkoTHDz3uOqC-Te8hBWVMk1N6aXJwNvNNpP3XRhjauSPTp1NLsUtvkvmkOaqx_iDDCuGUpkERa3bXMavBSKtACQl-ccof9304e9HpnYMFftM4kWAmCtefA7dDdHI-1yYTIGvKlgAZzOinlZg6lwrtMRZ-EP7LDArGDi7aA8zLS1fiYrT8gwc-2AKFMgsf5WvQwCxjLBFcPLG1NtUHNxTBh_MsTljEegrUJpXk4HWNS-CwJxPzNtBG4EiPHy_jRyiIfcswZZkbgG8XQUKI_XMOei15fJ6KZ6TG4lIJ741eU5YuvibiDnKwmhOkaFloJdR0s2BQijWYBmrBzAoqR8l1PfSPzd4bq276a5lFjDDOH3k0JtfiX9gvAbUqwfNE8FQ5e-vGxfKTLXQZhAc0YChFZt7WIzsuuyywVWFRZIrEIenvM2vxHUgfZbNJaSZmI_jq-c5oiHtO59pbb21k_4zoEBKVfTk2zQ43YfL8nN4FUnXUew1G_1nOc=w1280-h635") no-repeat;
 }
 
 #header-banner.demo-1 {
@@ -1796,7 +1797,6 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 #header-banner.demo-2 {
-  background-image: url("https://lh3.googleusercontent.com/mlVrfhofyz_4SGvaXi1FNk_dzqCC7xm79t3QonF0bd7Vzk4wepZ3j1qkAxpzs3-0qakKkoPdTMpkoTHDz3uOqC-Te8hBWVMk1N6aXJwNvNNpP3XRhjauSPTp1NLsUtvkvmkOaqx_iDDCuGUpkERa3bXMavBSKtACQl-ccof9304e9HpnYMFftM4kWAmCtefA7dDdHI-1yYTIGvKlgAZzOinlZg6lwrtMRZ-EP7LDArGDi7aA8zLS1fiYrT8gwc-2AKFMgsf5WvQwCxjLBFcPLG1NtUHNxTBh_MsTljEegrUJpXk4HWNS-CwJxPzNtBG4EiPHy_jRyiIfcswZZkbgG8XQUKI_XMOei15fJ6KZ6TG4lIJ741eU5YuvibiDnKwmhOkaFloJdR0s2BQijWYBmrBzAoqR8l1PfSPzd4bq276a5lFjDDOH3k0JtfiX9gvAbUqwfNE8FQ5e-vGxfKTLXQZhAc0YChFZt7WIzsuuyywVWFRZIrEIenvM2vxHUgfZbNJaSZmI_jq-c5oiHtO59pbb21k_4zoEBKVfTk2zQ43YfL8nN4FUnXUew1G_1nOc=w1280-h635") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -2460,7 +2460,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 .fact-icon {
-  color: #c39d6d;
+  color: #7a92a9;
   font-size: 26px;
   display: block;
   margin-top: 0;
@@ -2536,7 +2536,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 .featured .pricing-title {
-  background-color: #c39d6d;
+  background-color: #7a92a9;
 }
 
 .pricing-table-price {
@@ -2549,11 +2549,11 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 .featured .pricing-currency {
-  color: #c39d6d;
+  color: #7a92a9;
 }
 
 .featured .pricing-price {
-  color: #c39d6d;
+  color: #7a92a9;
 }
 
 .pricing-currency {
