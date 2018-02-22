@@ -1,0 +1,8 @@
+<h1>New Post</h1>
+<h2><%= @post.title %></h2>
+<p><%= @post.body %></p>
+<%= form_tag "/posts/#{@post.id}", method: :delete do %>
+  <input type="submit" value="Destroy post">
+<% end %>
+<%= link_to "Destroy post", "/posts/#{@post.id}", method: :delete %>
+<a href="/">Back to all posts</a>

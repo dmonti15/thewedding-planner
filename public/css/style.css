@@ -1786,7 +1786,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 /* Banners */
 #header-banner {
   background-color: #e5d3ce;
-  background-image: url("https://lh3.googleusercontent.com/mlVrfhofyz_4SGvaXi1FNk_dzqCC7xm79t3QonF0bd7Vzk4wepZ3j1qkAxpzs3-0qakKkoPdTMpkoTHDz3uOqC-Te8hBWVMk1N6aXJwNvNNpP3XRhjauSPTp1NLsUtvkvmkOaqx_iDDCuGUpkERa3bXMavBSKtACQl-ccof9304e9HpnYMFftM4kWAmCtefA7dDdHI-1yYTIGvKlgAZzOinlZg6lwrtMRZ-EP7LDArGDi7aA8zLS1fiYrT8gwc-2AKFMgsf5WvQwCxjLBFcPLG1NtUHNxTBh_MsTljEegrUJpXk4HWNS-CwJxPzNtBG4EiPHy_jRyiIfcswZZkbgG8XQUKI_XMOei15fJ6KZ6TG4lIJ741eU5YuvibiDnKwmhOkaFloJdR0s2BQijWYBmrBzAoqR8l1PfSPzd4bq276a5lFjDDOH3k0JtfiX9gvAbUqwfNE8FQ5e-vGxfKTLXQZhAc0YChFZt7WIzsuuyywVWFRZIrEIenvM2vxHUgfZbNJaSZmI_jq-c5oiHtO59pbb21k_4zoEBKVfTk2zQ43YfL8nN4FUnXUew1G_1nOc=w1280-h635") no-repeat;
+  /*background-image: url("https://lh3.googleusercontent.com/mlVrfhofyz_4SGvaXi1FNk_dzqCC7xm79t3QonF0bd7Vzk4wepZ3j1qkAxpzs3-0qakKkoPdTMpkoTHDz3uOqC-Te8hBWVMk1N6aXJwNvNNpP3XRhjauSPTp1NLsUtvkvmkOaqx_iDDCuGUpkERa3bXMavBSKtACQl-ccof9304e9HpnYMFftM4kWAmCtefA7dDdHI-1yYTIGvKlgAZzOinlZg6lwrtMRZ-EP7LDArGDi7aA8zLS1fiYrT8gwc-2AKFMgsf5WvQwCxjLBFcPLG1NtUHNxTBh_MsTljEegrUJpXk4HWNS-CwJxPzNtBG4EiPHy_jRyiIfcswZZkbgG8XQUKI_XMOei15fJ6KZ6TG4lIJ741eU5YuvibiDnKwmhOkaFloJdR0s2BQijWYBmrBzAoqR8l1PfSPzd4bq276a5lFjDDOH3k0JtfiX9gvAbUqwfNE8FQ5e-vGxfKTLXQZhAc0YChFZt7WIzsuuyywVWFRZIrEIenvM2vxHUgfZbNJaSZmI_jq-c5oiHtO59pbb21k_4zoEBKVfTk2zQ43YfL8nN4FUnXUew1G_1nOc=w1280-h635") no-repeat;*/
 }
 
 #header-banner.demo-1 {
@@ -1797,6 +1797,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 #header-banner.demo-2 {
+  background: url("../images/banner-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
