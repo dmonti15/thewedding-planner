@@ -31,6 +31,7 @@ class PagesController < ApplicationController
   end
 
   def contact
+    @map_key = ENV['GOOGLE_MAP_API_KEY']
     render 'contact.html.erb'
   end
 
