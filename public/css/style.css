@@ -15,9 +15,18 @@ html, body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+
+h1 {
   color: #111111;
-  font-family: "Raleway", sans-serif;
+  font-family: "Love Hewits", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin-top: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #111111;
+  font-family: "Audrey", sans-serif;
   font-weight: 800;
   letter-spacing: 0.1em;
   margin-top: 0;
@@ -1797,7 +1806,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 #header-banner.demo-2 {
-  background: url("../images/banner-bg.jpg") no-repeat;
+  background: url("../images/TRwedding-9.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -1873,7 +1882,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 .banner-info h1 {
-  font-size: 24px;
+  font-size: 58px;
   margin-bottom: 10px;
 }
 
@@ -2442,7 +2451,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 
 .about-img {
   position: absolute;
-  background: url(../images/about-img.jpg) scroll center no-repeat;
+  background: url(../images/about-img2.jpeg) scroll center no-repeat;
   background-size: cover;
   height: 100%;
 }

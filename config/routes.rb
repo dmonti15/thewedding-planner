@@ -21,7 +21,11 @@ Rails.application.routes.draw do
 
   root 'pages#index'
   get '/about' => 'pages#about'
+  get '/blog' => 'pages#blog'
   get '/services' => 'pages#services'
+  get '/basic' => 'pages#basic'
+  get '/pro' => 'pages#pro'
+  get '/premium' => 'pages#premium'
   get '/contact' => 'pages#contact'
 
   # Example of regular route:

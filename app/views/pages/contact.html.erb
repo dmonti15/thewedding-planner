@@ -7,8 +7,8 @@
                 <i class="lnr lnr-map-marker"></i>
             </div>
             <h5>ADDRESS</h5>
-            <p>33 King Street, Suite 133</p>
-            <p>Miami, Florida</p>
+            <p>722 Birch Street, Suite 301</p>
+            <p>Honolulu, Hawaii</p>
         </div><!-- / fcontact-info -->
 
         <div class="col-sm-4 contact-info text-center space-bottom">
@@ -16,8 +16,8 @@
                 <i class="lnr lnr-smartphone"></i>
             </div>
             <h5>PHONE</h5>
-            <p>Office: <a href="tel:+0123456789">+0123 456 789</a></p>
-            <p>Support: <a href="tel:+0987654321">+0987 654 321</a></p>
+            <p>Jordyn Oriole: <a href="tel:+0123456789">+0123 456 789</a></p>
+            <p>Michelle Gonzalez: <a href="tel:+0987654321">+0987 654 321</a></p>
         </div><!-- / contact-info -->
 
         <div class="col-sm-4 contact-info text-center space-bottom">
@@ -25,8 +25,8 @@
                 <i class="lnr lnr-envelope"></i>
             </div>
             <h5>EMAIL</h5>
-            <p>Office: <a href="mailto:office@yoursite.com">office@yoursite.com</a></p>
-            <p>Support: <a href="mailto:hello@yoursite.com">hello@yoursite.com</a></p>
+            <p>Jordyn Oriole: <a href="mailto:office@yoursite.com">jordyn.oriole@simplyseamlessevents.com</a></p>
+            <p>Michelle Gonzalez: <a href="mailto:hello@yoursite.com">michelle.gonzalez@simplyseamlessevents.com</a></p>
         </div><!-- / contact-info -->
 
     </div><!-- / row -->
@@ -36,6 +36,22 @@
             <!-- google map -->
             <div id="map"></div>
             <!-- / google map -->
+            <script>
+              function initMap() {
+                var uluru = {lat: 21.296545, lng: -157.844241};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 15,
+                  center: uluru
+                });
+                var marker = new google.maps.Marker({
+                  position: uluru,
+                  map: map
+                });
+              }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=APIKEYHERE&callback=initMap">
+            </script>
         </div><!-- / map -->
 
         <div class="col-sm-6 contact-form-area">

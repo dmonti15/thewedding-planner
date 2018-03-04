@@ -1,5 +1,10 @@
 class PostsController < ApplicationController
 
+  def index
+    @posts = Post.all
+    render 'blog.html.erb'
+  end
+
   def new
   end
 

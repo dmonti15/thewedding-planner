@@ -1,0 +1,33 @@
+<!-- blog section 3col masonry -->
+<section id="blog-masonry">
+    <div class="container">
+        <div id="grid" class="row">
+
+
+        <% @posts.each do |post| %>
+            <!-- post-block -->
+            <div class="col-sm-4">
+                <div class="post-block">
+                    <a href="/posts/<%=post.id%>"><img src="images/post-img.jpg" alt=""></a>
+                    <div class="small-post-text">
+                        <h5><a href="/posts/<%=post.id%>"><%= post.title %></a></h5>
+                        <p class="small-post-meta"><%= post.date %></p>
+                        <p class="space-bottom"><%= post.body %></p>
+                        <p class="small-post-footer">
+                            <a href="/posts/<%=post.id%>">READ MORE</a>
+                            <span class="post-icons pull-right">
+                                <a href="#x"><i class="lnr lnr-thumbs-up"></i></a>
+                                <a href="#x"><i class="lnr lnr-bubble"></i></a>
+                            </span>
+                        </p>
+                    </div><!-- / small-post-text -->
+                </div><!-- / post-block -->
+            </div><!-- / col-md-4 -->
+            <% end %>
+            <!-- / post-block -->
+        </div><!-- / row -->
+    </div><!-- / container -->
+</section>
+<!-- / blog section 3col -->
+
+<!-- / content -->
