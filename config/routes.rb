@@ -26,7 +26,7 @@ Rails.application.routes.draw do
   get '/basic' => 'pages#basic'
   get '/pro' => 'pages#pro'
   get '/premium' => 'pages#premium'
-  get '/contact' => 'pages#contact'
+  # get '/contact' => 'pages#contact'
   
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
