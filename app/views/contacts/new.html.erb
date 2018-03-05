@@ -57,18 +57,21 @@
             <%= form_for @contact do |f| %>
                     <form id="contactForm" data-toggle="validator">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="name" placeholder="FULL NAME" required>
+                        <%= f.label :name %>
+                        <%= f.text_field :name, required: true %>
                         <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="EMAIL" required>
+                         <%= f.label :email %>
+                        <%= f.email_field :email, required: true %>
                         <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group">
-                        <textarea id="message" class="form-control" rows="5" placeholder="MESSAGE" required></textarea>
+                        <%= f.label :message %>
+                        <%= f.text_area :message, as: :text %>
                     <div class="help-block with-errors"></div>
                     </div>
-                    <button type="submit" id="form-submit" class="btn btn-md btn-primary-filled btn-form-submit">SUBMIT FORM</button>
+                    <button type="submit" id="form-submit" class="btn btn-md btn-primary-filled"><%= submit_tag 'SUBMIT FORM' %></button>
                     <div id="msgSubmit" class="h3 text-center hidden"></div>
                     <div class="clearfix"></div>  
                     </form>
