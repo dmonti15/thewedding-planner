@@ -21,20 +21,19 @@ Rails.application.routes.draw do
 
   root 'pages#index'
   get '/about' => 'pages#about'
-  get '/blog' => 'pages#blog'
   get '/services' => 'pages#services'
   get '/basic' => 'pages#basic'
   get '/pro' => 'pages#pro'
   get '/premium' => 'pages#premium'
   get '/contact' => 'pages#contact'
-
+  
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
 
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
-  
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

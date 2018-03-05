@@ -10,10 +10,6 @@ class PagesController < ApplicationController
     render 'about.html.erb'
   end
 
-  def blog
-    render 'blog.html.erb'
-  end
-
   def services
     render 'services.html.erb'
   end
