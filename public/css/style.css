@@ -67,7 +67,7 @@ h6 {
 }
 
 a {
-  color: #7a92a9;
+  color: #c39d6d;
   -moz-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
@@ -78,7 +78,7 @@ a {
   outline: 0 !important;
 }
 a:hover, a:active, a:focus {
-  color: #e5d3ce;
+  color: #c39d6d;
   text-decoration: none;
 }
 
@@ -499,7 +499,7 @@ input:focus {
 
 ::selection {
   color: white;
-  background: #e5d3ce; /*rgba(195, 157, 109, 0.75)*/
+  background: #c39d6d; /*rgba(195, 157, 109, 0.75)*/
 }
 
 /* Buttons */
@@ -1914,7 +1914,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 .feature-icon i {
-  color: #eaccc1;
+  color: #c39d6d;
   font-size: 30px;
 }
 
