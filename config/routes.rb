@@ -5,9 +5,6 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
-  resources :posts
-  resources :photos
-
 #  resources :users
 #  generates:
 #   get "/users" -- index on your controller
@@ -19,6 +16,9 @@ Rails.application.routes.draw do
 #   patch "/users/:id" -- update on your controller
 #   delete "/users/:id" -- destroy on your controller
 
+  resources :posts
+  resources :photos
+
   root 'pages#index'
   get '/about' => 'pages#about'
   get '/blog' => 'pages#blog'
@@ -28,6 +28,13 @@ Rails.application.routes.draw do
   get '/premium' => 'pages#premium'
   get '/contact' => 'pages#contact'
 
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
+
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
