@@ -18,6 +18,7 @@ Rails.application.routes.draw do
 
   resources :posts
   resources :photos
+  resources :contacts, only: [:new, :create]
 
   root 'pages#index'
   get '/about' => 'pages#about'

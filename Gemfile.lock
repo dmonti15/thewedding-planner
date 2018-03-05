@@ -80,6 +80,9 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.0)
       mini_mime (>= 0.1.1)
+    mail_form (1.7.0)
+      actionmailer (>= 3.2, < 5.2)
+      activemodel (>= 3.2, < 5.2)
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
@@ -170,6 +173,7 @@ DEPENDENCIES
   figaro (~> 1.1, >= 1.1.1)
   jbuilder (~> 2.0)
   jquery-rails
+  mail_form (~> 1.7)
   pg (~> 0.18)
   rails (= 4.2.2)
   sass-rails (~> 5.0)
