@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   resources :contacts, only: [:new, :create]
 
   root 'pages#index'
-  get '/about' => 'pages#about'
+  get '/team' => 'pages#team'
   get '/services' => 'pages#services'
   get '/basic' => 'pages#basic'
   get '/pro' => 'pages#pro'

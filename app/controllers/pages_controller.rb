@@ -6,8 +6,8 @@ class PagesController < ApplicationController
     render 'index.html.erb'
   end
 
-  def about
-    render 'about.html.erb'
+  def team
+    render 'team.html.erb'
   end
 
   def services
